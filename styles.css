@@ -176,6 +176,12 @@ body{
     color: #DB7F74;
 }
 
+#videoPreloads{
+    display: none;
+    width: 0;
+    height: 0;
+}
+
 @keyframes liked {
     0% {transform: scale(1);}
     50%{transform: scale(1.5);}
@@ -200,10 +206,4 @@ body{
     to{
         top: 0;
     }
-}
-
-#videoPreloads{
-    display: none;
-    width: 0;
-    height: 0;
 }
